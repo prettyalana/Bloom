@@ -167,16 +167,11 @@ hr {
   gap: 50px;
 }
 
-#testimonial-img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  position: relative;
-}
-
-.testimonial {
+.testimonials {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .reviewer-name {
